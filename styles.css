@@ -1,0 +1,52 @@
+body {
+    margin: 50;
+    margin-top: 20;
+    background-color:  lightgray;
+}
+.video-js {
+    height: 63.64%;
+    width: 100%;
+    display: block;
+}
+.image-js {
+    height: 63.64%;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+.post {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20;
+}
+.video-container {
+    padding: 20;
+    padding-bottom: 0;
+}
+.image-container {
+    padding: 20;
+    padding-bottom: 0;
+}
+.feed {
+    display: block;
+    margin: auto;
+    width: 1000;
+    height: 100%;
+}
+@font-face {
+    font-family: 'HeroHeroBold';
+    src: url('https://herohero.co/public/fonts/Silka-Bold.woff2') format('woff2')
+}
+@font-face {
+    font-family: 'HeroHeroMedium';
+    src: url('https://herohero.co/public/fonts/Silka-Medium.woff2') format('woff2')
+}
+.post h1 {
+    font-family: HeroHeroMedium;
+    font-size: small;
+    color: #424242;
+    padding-top: 10;
+    padding-left: 40;
+    padding-right: 40;
+    padding-bottom: 20;
+}

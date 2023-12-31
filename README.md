@@ -1,4 +1,4 @@
-# [HeroHero clone PC ONLY](https://dzendys.github.io/HeroHero/)
+# [HeroHero clone](https://dzendys.github.io/HeroHero/)
 
 FAQ:
 
@@ -11,7 +11,7 @@ FAQ:
 
 **Proč mi nejde stránka pustit na mobilu? / Proč mi nejdou spustit videa?**
 - _Podpora je nyní pouze pro některé chromium-based prohlížeče => specificky **Google Chrome**. Kvůli využití video.js nemohu zaručit podporu pro všechny prohlížeče a už vůbec ne všechny platformy. Vlastně jsem vůbec rád, že to nějak funguje._
-- _Kdo má opravdu zájem, tak si cestu určitě najde :)_
+- _Některé telefony stránku dokáží načíst, ale trvá to dlouho. Kdo má opravdu zájem, tak si cestu určitě najde :)_
 
 **Používám Google Chrome, ale i tak se mi nedaří spustit přehrávač. Co teď?**
 - _Zkus záložku obnovit jednou, dvakrát... většinou to pomůže. Občas to nakopne prohlížeč, aby začal dělat to, co má (PS mně se to napoprvé taky ne vždy načte, jsme v tom spolu...)_

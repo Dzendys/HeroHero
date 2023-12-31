@@ -45,8 +45,16 @@ body {
     font-family: HeroHeroMedium;
     font-size: small;
     color: #424242;
-    padding-top: 10;
+    padding-top: 0;
     padding-left: 40;
     padding-right: 40;
+    padding-bottom: 0;
+}
+.post p {
+    font-family: HeroHeroMedium;
+    font-size: small;
+    color: #969696;
+    text-align: left;
+    padding-left: 40;
     padding-bottom: 20;
 }

@@ -51,12 +51,13 @@ function loadThumbnail(videoContainer, animatedSrc, stationarySrc) {
             .join("");
         }
   
+        const dateHTML = `<p>${post.date}</p>`;
         const descriptionHTML = `<h1>${post.description.replace(
           /\n/g,
           "<br>",
         )}</h1>`;
-  
-        postDiv.innerHTML = videosHTML + imagesHTML + descriptionHTML;
+
+        postDiv.innerHTML = videosHTML + imagesHTML + descriptionHTML + dateHTML;
         postsContainer.appendChild(postDiv);
   
         const videoContainers = postDiv.querySelectorAll(".video-container");

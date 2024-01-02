@@ -58,6 +58,9 @@ function loadThumbnail(videoContainer, animatedSrc, stationarySrc) {
         )}</h1>`;
 
         postDiv.innerHTML = videosHTML + imagesHTML + descriptionHTML + dateHTML;
+        if (videosHTML === "" && imagesHTML === "") {
+          postDiv.innerHTML = "<p></p>" + postDiv.innerHTML; 
+        }
         postsContainer.appendChild(postDiv);
   
         const videoContainers = postDiv.querySelectorAll(".video-container");

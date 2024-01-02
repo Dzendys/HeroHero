@@ -4,7 +4,7 @@ Aktuálně dostupné: Podcast Kontroverzní
 FAQ:
 
 **Jak to funguje?**
-- _Jelikož HeroHero servery postrádají ověření, jestli má uživatel opravdu přístup k datům, stačí si url adresy k datům jednodušše zapamatovat a mít k nim přístup napořád :D_
+- _Jelikož HeroHero servery postrádají ověření, jestli má uživatel opravdu přístup k datům, stačí si url adresy k datům jednodušše zapamatovat a mít k nim přístup napořád :D (ty nové samozřejmě nelze zjistit)_
 
 **Proč se mi načítá stránka pomalu?**
 - _Protože se na pozadí načítají pomocí scriptu všechny posty s videami, které mají navíc thumbnaily. (Proč všechny naráz? Protože to je jinak "strašnej voser" - tak si to zkus naprogramovat :P)_

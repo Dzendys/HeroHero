@@ -33,6 +33,11 @@ body {
     width: 50%;
     height: 100%;
 }
+@media (max-width: 767px) {
+    .feed {
+        width: 90%;
+    }
+}
 @font-face {
     font-family: 'HeroHeroBold';
     src: url('https://herohero.co/public/fonts/Silka-Bold.woff2') format('woff2')

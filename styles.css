@@ -4,15 +4,14 @@ body {
     background-color:  lightgray;
 }
 .video-js {
-    height: 63.64%;
-    width: 100%;
     display: block;
+    height: auto;
+    width: 100%;
 }
 .image-js {
-    height: 63.64%;
-    width: auto;
-    margin: auto;
     display: block;
+    height: auto;
+    width: 100%;
 }
 .post {
     background-color: white;
@@ -22,6 +21,7 @@ body {
 .video-container {
     padding: 20;
     padding-bottom: 0;
+    position: relative;
 }
 .image-container {
     padding: 20;
@@ -30,7 +30,7 @@ body {
 .feed {
     display: block;
     margin: auto;
-    width: 1000;
+    width: 50%;
     height: 100%;
 }
 @font-face {

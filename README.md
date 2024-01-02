@@ -7,7 +7,7 @@ FAQ:
 
 **Proč se mi načítá stránka pomalu?**
 - _Protože se na pozadí načítají pomocí scriptu všechny posty s videami, které mají navíc thumbnaily. (Proč všechny naráz? Protože to je jinak "strašnej voser" - tak si to zkus naprogramovat :P)_
-- _Zkus záložku obnovit jednou, dvakrát... většinou to pomůže. Občas to nakopne prohlížeč, aby začal dělat to, co má (PS mně se to napoprvé taky ne vždy načte, jsme v tom spolu...)_
+- _Zkus záložku obnovit nebo ji zavřít a znovu otevřít... většinou to pomůže. Občas to nakopne prohlížeč, aby začal dělat to, co má..._
 
 **Proč mi nejdou spustit videa?**
 - _Kvůli využití video.js nemohu zaručit podporu pro všechny prohlížeče a už vůbec ne všechny platformy. Vlastně jsem vůbec rád, že to nějak funguje._

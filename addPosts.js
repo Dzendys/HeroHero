@@ -29,7 +29,7 @@ function loadThumbnail(videoContainer, animatedSrc, stationarySrc) {
             .map(
               (video) => `
               <div class="video-container">
-                <video class="video-js vjs-16-9" controls preload="auto" data-setup="{}">
+                <video class="video-js vjs-16-9" controls preload="none" data-setup="{}">
                   <source src="${video}" type="application/x-mpegURL" />
                 </video>
               </div>

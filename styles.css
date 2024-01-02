@@ -13,31 +13,6 @@ body {
     height: auto;
     width: 100%;
 }
-.post {
-    background-color: white;
-    border-radius: 20px;
-    margin-top: 20;
-}
-.video-container {
-    padding: 20;
-    padding-bottom: 0;
-    position: relative;
-}
-.image-container {
-    padding: 20;
-    padding-bottom: 0;
-}
-.feed {
-    display: block;
-    margin: auto;
-    width: 50%;
-    height: 100%;
-}
-@media (max-width: 1200px) {
-    .feed {
-        width: 90%;
-    }
-}
 @font-face {
     font-family: 'HeroHeroBold';
     src: url('https://herohero.co/public/fonts/Silka-Bold.woff2') format('woff2')
@@ -46,12 +21,32 @@ body {
     font-family: 'HeroHeroMedium';
     src: url('https://herohero.co/public/fonts/Silka-Medium.woff2') format('woff2')
 }
+.feed {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+}
+.post {
+    background-color: white;
+    border-radius: 35px;
+    margin-top: 20;
+}
+.video-container {
+    padding: 40;
+    padding-bottom: 0;
+    position: relative;
+}
+.image-container {
+    padding: 40;
+    padding-bottom: 0;
+}
 .post h1 {
     font-family: HeroHeroMedium;
     font-size: small;
     color: #424242;
-    padding-top: 0;
-    padding-left: 40;
+    padding-top: 5;
+    padding-left: 60;
     padding-right: 40;
     padding-bottom: 0;
 }
@@ -60,6 +55,32 @@ body {
     font-size: small;
     color: #969696;
     text-align: left;
-    padding-left: 40;
+    padding-left: 60;
     padding-bottom: 20;
+}
+@media only screen and (max-width: 1200px) {
+    .feed {
+        width: 90%;
+    }
+    .post {
+        border-radius: 70px;
+        margin-top: 30;
+    }
+    .video-container {
+        padding: 60;
+        padding-bottom: 0;
+    }
+    .image-container {
+        padding: 60;
+        padding-bottom: 0;
+    }
+    .post h1 {
+        font-size: large;
+        padding-left: 85;
+        padding-top: 7;
+    }
+    .post p {
+        font-size: medium;
+        padding-left: 85;
+    }
 }

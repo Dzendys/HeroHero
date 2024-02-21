@@ -1,5 +1,5 @@
 # [HeroHero clone](https://dzendys.github.io/HeroHero/)
-Aktuálně dostupné: Podcast Kontroverzní
+Aktuálně dostupné: Podcast Kontroverzní (do 14.9.2023)
 
 FAQ:
 

@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'HeroHeroBold';
+    src: url('https://herohero.co/public/fonts/Silka-Bold.woff2') format('woff2')
+}
+@font-face {
+    font-family: 'HeroHeroMedium';
+    src: url('https://herohero.co/public/fonts/Silka-Medium.woff2') format('woff2')
+}
+
+body {
+    background-color: lightgray;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 20vw;
+    height: 100vh;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    box-shadow: 10px 10px 10px darkgray;
+    overflow-y: auto;
+    flex-shrink: 0;
+}
+
+.side-bar-item {
+    font-family: 'HeroHeroMedium';
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 1em;
+}
+
+.side-bar-item:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.side-bar-item-selected {
+    background-color: darkgray;
+    color: white;
+    font-family: 'HeroHeroBold';
+}
+
+.side-bar-item-selected:hover {
+    background-color: darkgray;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+    justify-content: flex-start;
+}
+
+.post {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10vh;
+    width: 60%;
+    height: auto;
+    background-color: white;
+    padding: 40px;
+    padding-bottom: 20px;
+    border-radius: 2em;
+    box-shadow: 10px 10px 10px darkgray;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+.videoplayer {
+    width: 100%;
+    height: 100%;
+    max-height: 60vh;
+    border-radius: 1em;
+    object-fit: contain;
+}
+
+.videoplayer:hover {
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    max-height: 60vh;
+    border-radius: 1em;
+    object-fit: contain;
+}
+
+.description {
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 1em;
+    font-family: 'HeroHeroBold';
+    font-size: 16px;
+}
+
+.timestamp {
+    font-family: 'HeroHeroMedium';
+    font-size: 12px;
+    color: darkgray;
+    text-align: right;
+    padding-top: 1em;
+}
